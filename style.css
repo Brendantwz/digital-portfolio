@@ -1,3 +1,44 @@
-*{
-    text-align:center;
-}   
+body{
+    background: black;
+}
+
+.portrait > img{
+    float:left;
+    position: relative;
+    /*border-radius: 25%;*/
+    clip-path: circle();
+    width: 20%;
+    top: 270px;
+    left: 300px;
+}
+
+.headline{
+    color: white;
+    font-family: 'Hammersmith One', sans-serif;
+    display: block;
+    margin: auto;
+    width: 25%;
+    padding-top: 250px;
+    padding-bottom: 140px;
+}
+
+.headline-brendan{
+    font-size: 10rem;
+    padding-bottom: 0;
+}
+
+.headline > h1{
+    font-size: 5rem;
+    
+}
+
+.description p{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 0;
+}
+
+.links{
+    text-align: center;
+}
