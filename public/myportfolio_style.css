@@ -1,0 +1,29 @@
+body{
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(35,29,42,1) 48%, rgba(0,0,0,1) 99%);
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.portfolio{
+    border: 5px white solid;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+a:hover, a:active {
+    background-color: red;
+}
