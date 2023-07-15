@@ -37,6 +37,28 @@ body{
     padding-top: 0;
 }
 
+
 .links{
     text-align: center;
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 1em; 
+    border: 0;
+    outline: 3px solid #333;
+    outline-offset: -5px;
+    transition: 500ms;
+  }
+  
+a:hover, a:active {
+    background-color: black;
+    outline-offset: 0px;
+    outline-color: rgb(199, 199, 199);
+    color:white;
 }
