@@ -37,3 +37,22 @@ p{
     border: 5px solid white;
     padding: 5px;
 }
+
+a:link, a:visited {
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 1em;
+    border: 0;
+    outline: 3px solid #333;
+    outline-offset: -5px;
+    transition: 300ms;
+  }
+  
+a:hover, a:active {
+    background-color: orangered;
+    outline-offset: 0px;
+    outline-color: white;
+}
