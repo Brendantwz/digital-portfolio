@@ -1,8 +1,16 @@
-h1{background:linear-gradient(to right, #99ccff 0%, #ffccff 100%)}
-h2{background:linear-gradient(to right, #99ccff 0%, #ffccff 100%)}
+body{
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(35,29,42,1) 48%, rgba(0,0,0,1) 99%);
+}
 
 h1{
     text-align: center;
+    color: white;
+    border: 1px white solid;
+    border-radius: 20px;
+}
+
+p{
+    color: white;
 }
 
 .center{
