@@ -15,6 +15,10 @@ h2{
     margin-bottom: 0;
 }
 
+h3,h4,li {
+    color: white;
+}
+
 div > div{
     margin-top: 10px;
     display: inline-flex;
@@ -24,6 +28,11 @@ div > div{
 p{
     color: white;
     text-align: justify;
+}
+
+.others{
+    text-align: center;
+    padding-top: 10px;
 }
 
 .center{
