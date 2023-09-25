@@ -1,74 +1,125 @@
-body{
-    background: black;
+html {  
+    scroll-behavior: smooth;  
+}
+
+.landing-page{
+    height: 60vh;
+    max-width: 100%;
+    background-image: url('./assets/images/background.PNG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.landing-page > .container{
+    margin-right: 0;
+}
+
+.container-pic-intro{
+    display: flex;
+    height: 30vh;
+}
+
+.portrait{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    max-width: 100%;
 }
 
 .portrait > img{
-    float:left;
-    position: relative;
     clip-path: circle();
-    width: 20%;
-    top: 270px;
-    left: 300px;
+    width: 250px;
 }
 
 .headline{
     color: white;
     font-family: 'Hammersmith One', sans-serif;
-    display: block;
-    margin: auto;
-    width: 25%;
-    padding-top: 250px;
-    padding-bottom: 140px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 55px;
+    margin-left: 50px;
 }
 
-.headline-brendan{
-    font-size: 10rem;
-    padding-bottom: 0;
+.intro > h1{
+    font-size: 5.5rem;
 }
 
-.headline > h1{
+.intro > h1 > .headline-brendan{
     font-size: 5rem;
 }
 
-.description p{
-    color: white;
-    font-size: 1rem;
-    text-align: center;
-    padding-top: 0;
+@media (max-width: 950px){
+    .landing-page{
+        height: 50vh;
+    }
+
+    .container-pic-intro{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+    }
+
+    .portrait{
+        margin: auto 0;
+    }
+
+    .headline{
+        justify-items: center;
+        margin: auto 0;
+    }
+
+    .portrait > img{
+        width: 150px;
+    }
+
+    .intro{
+        text-align: center;
+    }
+
+    .intro > h1{
+        font-size: 3.5rem;
+    }
+    
+    .intro > h1 > .headline-brendan{
+        font-size: 3rem;
+    }
+}
+
+.row{
+    flex-wrap: wrap;
 }
 
 
-.links{
-    text-align: center;
-    padding-bottom: 15px;
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
-a:link, a:visited {
-    background-color: white;
-    color: black;
-    padding: 5px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 1em; 
-    border: 0;
-    outline: 3px solid #333;
-    outline-offset: -5px;
-    transition: 500ms;
-  }
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#test:hover .image {
+    opacity: 0.7;
+}
   
-a:hover, a:active {
-    background-color: black;
-    outline-offset: 0px;
-    outline-color: rgb(199, 199, 199);
-    color:white;
+#test:hover .middle {
+    opacity: 1;
 }
 
-footer.homepage-copyright{
+.text {
+    background-color: #212F4E;
     color: white;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 99%;
-    height: 2.5rem; 
+    font-size: 14px;
+    padding: 12px 12px;
 }
