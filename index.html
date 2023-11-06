@@ -12,12 +12,12 @@
 </head>
 <body>
     <!-- Todos 
-      #1 Make it more responsive on the landing page & appealing
-      #2 Include a link to view the projects that I have done
-      #3 Fix the viewing width
-      #4 Fix the feature of viewing the project (make it center & others)
-      #5 Feature effects on the buttons 
-      #6 Align the description of the projects
+      #1 Make it more responsive on the landing page & appealing [checked]
+      #2 Include a link to view the projects that I have done [in-progress]
+      #3 Fix the viewing width [temporary work]
+      #4 Fix the feature of viewing the project (make it center & others) 
+      #5 Feature effects on the buttons [checked]
+      #6 Align the description of the projects [checked]
     -->
 
     <div class="landing-page">
@@ -51,7 +51,7 @@
         <img class="d-block mx-auto mb-4" src="./assets/images/Brendan_potrait.JPG" alt="" width="122" height="122" style="clip-path: circle()">
         <h1 class="display-5 fw-bold text-body-emphasis"></h1>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">I am self-taught Web Developer & UI/UX Designer equipped with versatile skillsets <br> Persuing a career transition to Web Development.</p>
+          <p class="lead mb-4">I am self-taught Web Developer & UI/UX Designer equipped with versatile skill sets <br> Pursuing a career transition to Web Development.</p>
         </div>
     </div>
 
@@ -62,7 +62,7 @@
           <div class="col-lg-6">
             <img src="https://cdn-icons-png.flaticon.com/512/2920/2920244.png" alt="Coding design icon" width="auto" height="140"/>
             <h2 class="fw-normal">Web Development & UI/UX Designs</h2>
-            <p>Designed over 10+ User Interfaces Designs using Canva with 100 DailyUI Challenges</p>
+            <p>Designed over 50+ User Interfaces Designs using Canva with 100 DailyUI Challenges</p>
           </div><!-- /.col-lg-4 -->
 
           <div class="col-lg-6">
@@ -84,48 +84,59 @@
           </div><!-- /.col-lg-4 -->
       </div>
     </div>
+
+    
     <!-- #3 List my projects that I have done -->
-    <div id="projects-view" class="project-display text-center border-top" style="margin-top: 20px;">
-        <h1 style="margin-bottom: 50px; margin-top:30px; text-align:center;">Projects</h1>
-        <div class="row featurette">
-            <div class="col-md-6">
+    <div id="projects-view" class="border-top text-center" style="margin-top: 20px;">
+      <h1 style="margin-bottom: 50px; margin-top:30px;">Projects</h1>
+    </div>
+    
+    <div id="centering-project">
+      <div class="row featurette">
+        <div class="col-md-7 d-flex align-items-center">
+          <div class="container ps-5">
             <h2 class="featurette-heading fw-normal 1h-1">E-commerce Single Product</h2>
-            <p class="lead">Redesign an apperal e-commerce company on the product display to include minimalistic and theme</p>
-            </div>
-            <div id="test" class="col-md-6">
-              <img src="./assets/images/E-commerce single product.PNG" alt="e-commerce-single-product" class="image" width="70%" height="100%" style="object-fit:cover"/>
-              <!-- Can include hover overlay to click view the image or website -->
-              <div class="middle">
-                <div class="text">Click me!</div>
-              </div>            
-            </div>
+            <p class="lead">Redesign an apparel e-commerce company on the product display to include minimalistic and theme</p>
+          </div>
         </div>
+        <div id="test" class="col-md-5 text-center px-5">
+          <img src="./assets/images/E-commerce single product.PNG" alt="e-commerce-single-product" class="image" style="max-width: 100%; height: auto;"/>
+          <!-- Can include hover overlay to click view the image or website -->
+          <div class="middle">
+            <div class="text">Click me!</div>
+          </div>            
+        </div>
+    </div>
 
-        <div class="row featurette" style="margin-top: 50px;">
-            <div class="col-md-6 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">Website Countdown Launch Design</h2>
+    <div class="row featurette" style="margin-top: 50px;">
+        <div class="col-md-7 order-md-2 d-flex align-items-center">
+          <div class="container ps-5">
+            <h2 class="featurette-heading fw-normal lh-1">Countdown Launch Design</h2>
             <p class="lead">Aesthetic Pixelated design to launch a gaming website with countdown timer</p>
-            </div>
-            <div id="test" class="col-md-6 order-md-1">
-              <img src="./assets/images/Website Launch Countdown Timer.png" alt="Gaming-countdown-launch-website" class="image" width="70%" height="100%" style="object-fit:cover"/>
-              <div class="middle">
-                <div class="text">Click me!</div>
-              </div>
-            </div>
+          </div>
         </div>
+        <div id="test" class="col-md-5 order-md-1 text-center px-5">
+          <img src="./assets/images/Website Launch Countdown Timer.png" alt="Gaming-countdown-launch-website" class="image" style="max-width: 100%; height: auto;"/>
+          <div class="middle">
+            <div class="text">Click me!</div>
+          </div>
+        </div>
+    </div>
 
-        <div class="row featurette" style="margin-top: 50px;">
-            <div class="col-md-6">
+    <div class="row featurette" style="margin-top: 50px;">
+        <div class="col-md-7 d-flex align-items-center">
+          <div class="container ps-5">
             <h2 class="featurette-heading fw-normal lh-1">Online Resume</h2>
             <p class="lead">My first webpage project written only in HTML to showcase my education, work experience and others</p>
-            </div>
-            <div id="test" class="col-md-6">
-              <img src="./assets/images/Online_resume_html.PNG" alt="Online resume HTML style" class="image" width="70%" height="100%" style="object-fit:cover"/>
-              <div class="middle">
-                <div class="text">Check it</div>
-              </div>
-            </div>
+          </div>
         </div>
+        <div id="test" class="col-md-5 text-center px-5">
+          <img src="./assets/images/Online_resume_html.PNG" alt="Online resume HTML style" class="image" style="max-width: 100%; height: auto;"/>
+          <div class="middle">
+            <div class="text">Check it</div>
+          </div>
+        </div>
+    </div>
     </div>
 
     <!-- #4 About me & Get in contact section -->

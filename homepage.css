@@ -50,6 +50,10 @@ html {
     font-size: 5rem;
 }
 
+.h2{
+    margin-top: 6rem;
+}
+
 @media (max-width: 950px){
     .landing-page{
         height: 50vh;
