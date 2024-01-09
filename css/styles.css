@@ -257,6 +257,11 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
+a.link-underline-light {
+  text-decoration: none; /* This removes the underline */
+  color: inherit; /* This ensures the link color remains as specified */
+}
+
 pre,
 code,
 kbd,
