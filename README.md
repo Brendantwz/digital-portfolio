@@ -6,12 +6,12 @@ Made with:
 
 ## Roadmap
 
-- [ ] Revamp and update the page with the latest info (page is 5-months old)
+- [x] Revamp and update the page with the latest info (page is 5-months old)
 - [ ] Update & Enhance the README.md with the following checklist
     - [ ] Project Logo
     - [ ] Provide table of content (if needed)
     - [ ] About the project
-    - [ ] Built with what tech stack
+    - [x] Built with what tech stack
     - [ ] Getting started (show pre-requisites and installation method)
     - [ ] Usage - Provide demo or useful screenshots on how to use
     - [ ] Contributing?
